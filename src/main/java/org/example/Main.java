@@ -191,7 +191,7 @@ public class Main {
                                 int i;
                                 for(i = 0; i < var4; ++i) {
                                     File lib = var3[i];
-                                    if (lib.getName().equals("minecraft.jar")) {
+                                    if (lib.getName().equals("minecraftjr.jar")) {
                                         classpath.append(lib.getAbsolutePath());
                                     } else {
                                         classpath.append(lib.getAbsolutePath());
